@@ -52,6 +52,8 @@ const UsersForm = ({
         .then(() => {
           getUsers();
           deselectUser();
+          alert("Usuario editado");
+          setShowModal(false);
         });
     } else {
       // crear
