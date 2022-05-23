@@ -1,0 +1,124 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay,
+.overlay-delete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(4px);
+}
+
+.overlay-delete {
+  position: absolute;
+}
+
+.modal {
+  position: fixed;
+  width: 419px;
+  height: 520px;
+}
+
+.modal,
+.modal-delete {
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 9;
+  margin: auto;
+  width: 419px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.modal-delete {
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+.submit {
+  font-size: 16px;
+  background: #555a88;
+  color: #fff;
+  width: 90%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  margin-top: 2rem;
+  margin: auto;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  border: 1px solid rgb(188, 186, 186);
+  border-radius: 3px;
+  background-color: rgb(245, 243, 243);
+  width: 90%;
+  height: 2rem;
+  margin-top: 10px;
+  margin: auto;
+}
+
+label {
+  margin-left: 1rem;
+  margin-bottom: 5px;
+}
+
+.titleModal {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+}
+
+.titleModal button {
+  position: relative;
+  left: -5px;
+  top: -5px;
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-delete button {
+  font-size: 16px;
+  background: #555a88;
+  color: #fff;
+  width: 90%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.modal-delete p {
+  margin: auto;
+}
+
+.modal-delete h1 {
+  margin: auto;
+}

@@ -1,0 +1,44 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 3rem;
+}
+
+.header {
+  margin-left: 50px;
+  margin-right: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header button {
+  font-size: 20px;
+  background: #555a88;
+  color: #fff;
+  height: 45px;
+  width: 227px;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
+
+  h1 {
+    margin: 1rem;
+  }
+}
