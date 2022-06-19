@@ -37,7 +37,7 @@
 
 .modal,
 .modal-delete {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.645);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   padding: 10px;
   border-radius: 10px;
@@ -69,15 +69,26 @@
   cursor: pointer;
 }
 
+.submit:hover {
+  background: #555a8876;
+  color: #000;
+}
+
 input {
   display: block;
-  border: 1px solid rgb(188, 186, 186);
   border-radius: 3px;
-  background-color: rgb(245, 243, 243);
+  background-color: rgba(245, 243, 243, 0.558);
   width: 90%;
   height: 2rem;
   margin-top: 10px;
   margin: auto;
+  border: 0;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+input:hover {
+  background-color: #fff;
 }
 
 label {
