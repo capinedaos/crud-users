@@ -1,7 +1,9 @@
 .container {
-  margin-left: 50px;
-  margin-right: 50px;
+  display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
 li {
@@ -64,9 +66,13 @@ button .fa-pen-to-square,
 }
 
 button {
-  background-color: #fff;
+  background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.645);
 }
 
 .buttons {
